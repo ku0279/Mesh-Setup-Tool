@@ -101,10 +101,10 @@ class UI_Window(object):
         center_z = (min_z + max_z)/2
         
         #move to 0,0,0             
-        cmds.move(-center_x, -min_y, -center_z, cha, relative =True)
+        cmds.move(-center_x, -min_y, -center_z, self.cha, relative =True)
         
         #pivot to 0,0,0
-        for obj in cha:
+        for obj in self.cha:
                 cmds.xform(obj, pivots=(0, 0, 0), worldSpace=True)
     
 
@@ -123,7 +123,7 @@ class UI_Window(object):
         name = cmds.textFieldGrp(self.chaName, query=True, text=True)
         
         cmds.group(self.cha, n=name)
-        meshGrp = cmds.group(cha, n='mesh_grp')
+        meshGrp = cmds.group(self.cha, n='mesh_grp')
 
 
 
