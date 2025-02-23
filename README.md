@@ -12,7 +12,7 @@ Simply enter the **name** and **height**, select the desired **options**, and ch
 ##  Features  
 
 ### - Apply Height  
-Scales all selected meshes proportionally to match the entered height.  
+- Scales all selected meshes proportionally to match the entered height.  
 
 ### - Move Mesh and Pivot to (0,0,0)  
 - Uses the **bounding box** of all selected meshes to move them to the world origin 0,0,0.  
@@ -20,7 +20,7 @@ Scales all selected meshes proportionally to match the entered height.
 
 ### - Freeze All and Delete History  
 - **Freezes transformations** (Translate, Rotate, Scale) to 0,0,0. 
-- **Deletes construction history** to optimize the meshes.  
+- Apply **Delete by type - history** to optimize the meshes.  
 
 ### - Group Mesh  
 - Groups all selected meshes under a structured hierarchy:
