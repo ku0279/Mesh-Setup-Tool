@@ -14,7 +14,7 @@ Simply enter the **name** and **height**, select the desired **options**, and ch
 ### - Apply Height  
 - Scales all selected meshes proportionally to match the entered height.  
 
-### - Move Mesh and Pivot to (0,0,0)  
+### - Move Mesh and Pivot to 0
 - Uses the **bounding box** of all selected meshes to move them to the world origin 0,0,0.  
 - Aligns their **pivot** to 0,0,0.  
 
