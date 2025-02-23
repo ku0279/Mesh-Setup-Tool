@@ -7,6 +7,19 @@ A **Maya tool** designed for **character rigging setup**, but can be used for ot
 
 This tool allows you to set up meshes efficiently by applying various transformations and optimizations.  
 Simply enter the **name** and **height**, select the desired **options**, and choose the **meshes** you want to modify. Then, click **Apply** to execute the selected operations.  
+<br/>
+
+
+## How to Use
+
+1. Download the MeshSetupTool.py
+2. Open Maya Script Editor (Windows - General Editors - Script Editor)
+3. Add a new python script tab.
+4. Drag the script(MeshSetupTool.py) to the Editor
+5. Run the script!
+
+<br/>
+
 
 
 ##  Features  
