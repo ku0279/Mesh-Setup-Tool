@@ -55,7 +55,7 @@ class UI_Window(object):
     def meshSetup(self, *args):
         self.cha = cmds.ls(sl=1)
     
-        if len(cha) > 0:
+        if len(self.cha) > 0:
             
             if cmds.checkBox(check1, query=True, value=True):
                 self.changeHeight()
